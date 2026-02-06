@@ -8,7 +8,6 @@ import ProjectList from './components/home/ProjectList'
 import About from './components/home/About'
 import Testimonial from './components/home/Testimonial'
 import GlowEffect from './components/ui/GlowEffect'
-import Cursor from './components/ui/Cursor'
 import ScrollToTop from './components/layout/ScrollToTop'
 import Chinchilli from './pages/Chinchilli'
 import ROIDigital from './pages/ROIDigital'
@@ -46,7 +45,6 @@ function App() {
     <ThemeProvider>
       <div className="app">
         <ScrollToTop />
-        <Cursor />
         {/* GlowEffect removed */}
         <Header />
         <main>
